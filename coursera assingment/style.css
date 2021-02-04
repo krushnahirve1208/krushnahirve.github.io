@@ -14,7 +14,7 @@ h1{
     border: 4px solid black;
 
 }
-p{padding: 6px;}
+p{padding: 12px;}
 h2{
     margin-block-start: 0;
 }
@@ -22,16 +22,25 @@ h2.heading1{
     background-color: rgb(214, 40, 112);
     width: 100px;
     border: 2px solid black;
+    position: absolute;
+    right: 0;
+    top: 0;
 }
 h2.heading2{ 
     background-color: rgb(219, 233, 91);
     width: 100px;
     border: 2px solid black;
+    position: absolute;
+    right: 0;
+    top: 0;
 }
 h2.heading3{ 
     background-color: rgb(33, 218, 147);
     width: 100px;
     border: 2px solid black;
+    position: absolute;
+    right: 0;
+    top: 0;
 }
 /* large size device only */
 @media screen and (min-width:992px){
@@ -68,7 +77,7 @@ h2.heading3{
            clear:both;
                }     
     }
-/** small size devicce only*/
+/** small size device only*/
 @media screen and (min-width:150px) and (max-width:767px){
     .section1{
         width: 100%;
