@@ -1,0 +1,138 @@
+body{
+    background-color:black;
+    color: #fff;
+    font-size: 16px;
+}
+header{
+    background-color: rgb(228, 213, 13);
+    border:0;
+    border: radius 0;
+}
+img{
+    margin: 10px 15px 10px 0;
+    height: 150px;
+    width: 150px;
+}
+ .navbar-brand a {
+     text-decoration: underline dashed; 
+     text-transform: uppercase;
+     font-family: serif;
+     color:rgb(230, 21, 195) ;
+}
+.navbar-brand a:hover,.navbar-brand a:focus{
+    color:rgba(218, 73, 30, 0.842);
+}
+.navbar-brand p{
+    text-transform: uppercase;
+    margin:1px;
+    text-align:center ;
+}
+div.container{
+    position: relative;
+}
+div.navbar-brand{
+    position: absolute;
+    top:20px;
+    left:250px;
+}
+/**coursera assignment**/
+*{
+    box-sizing: border-box;
+}
+h2{
+    color:rgb(224, 49, 49);
+    text-align: center;
+    text-decoration:underline dashed rgb(224, 49, 49);
+}
+#container{
+    background-color: rgb(228, 11, 130);
+    margin: 15px;
+    padding: 0px 10px 10px 0px;
+    position: relative;
+    border: 4px solid rgb(231, 171, 6);
+    border: auto;
+}
+h3+p{padding:40px 15px 30px 15px;
+  color:black;
+  font-weight: bolder;
+
+}
+/*div#toggle-nav a {
+    color: rgb(26, 23, 23);
+    text-decoration: none;
+}
+div#toggle-nav a:hover,div#toggle-nav a:active{
+    color: rgb(238, 99, 56);
+}
+ul li{
+    list-style: none;
+    display: inline;
+    padding: 70px;
+    font-size: 20px;
+}  */
+h3{
+    color:black;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 35px;
+
+}
+.navbar-toggler{
+    background-color: rgb(236, 10, 225);
+   
+}
+div.container-fluid{
+   position: absolute;
+   left:100px;
+   top:50px;
+}
+div.container-fluid a:nth-child(1){
+    margin-top: 10px;
+}
+    
+div.container-fluid a{
+    color:black;
+    padding:10px;
+    display: block;
+    text-align: center;
+    margin-top: 4px;
+    background-color: rgb(233, 227, 227);
+    width: auto;
+}
+
+div.container-fluid a:hover,div.conatainer-fluid a:active{
+    color:rgb(240, 40, 40);
+    
+}
+@media screen and  (max-width:767px){
+    img{
+    visibility: hidden;
+}
+div.navbar-brand a{
+    text-align:center;
+}
+div#toggle-nav{
+    visibility: hidden;
+}
+
+
+}
+@media screen and  (min-width:768px) and (max-width:1800px){
+    div#toggle-nav a {
+        color: rgb(26, 23, 23);
+        text-decoration: none;
+    }
+    div#toggle-nav a:hover,div#toggle-nav a:active{
+        color: rgb(238, 99, 56);
+    }
+    ul li{
+        list-style: none;
+        display: inline;
+        padding: 10px;
+        font-size: 20px;
+    } 
+    div.container-fluid{
+        visibility: hidden;
+    }
+   
+}
